@@ -1,0 +1,45 @@
+.td{
+}
+.tabla{
+    width: 90%;
+    /*border: 1px solid black;*/
+}
+.monto_numero{
+    text-align: center;
+    border: 1px solid black;
+}
+.concepto{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.fecha{
+    font-size: 10px;
+}
+.separador_gris{
+    background: #9c9c9c;
+    height: 20px;
+}
+.title_table{
+    background: #9c9c9c;
+    color: white;
+}
+.numeros{
+    text-align: right;
+}
+.total{
+    font-weight: bold;
+}
+.para_llenar{
+    height: 60px;
+}
+
+.td_oscuro{
+    background: #c7cdde;
+}
+
+.td{
+    width: 50%;
+    
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* =========================================== general */
+.error {
+	border: 1px solid red !important;
+	background: rgba(255,0,0,0.3) !important;
+}
+.msgErrorValidator {
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	background: url(bg_header.jpg) #002a4d repeat-x top;
+	color: #fff;
+	width: 254px;
+	margin-left: -100px;
+	z-index: 9999;
+	display: none;
+	opacity: 0;
+	border: 1px solid #fff;
+	border-top: 0px;
+	padding: 10px;
+	box-shadow: 0 0 5px #000;
+	border-radius: 0px 0px 20px 20px;
+	text-align: center;
+}
+/* =========================================== fin general */

@@ -1,0 +1,45 @@
+
+.wrapper
+{
+	width: 840px;
+	height: 300px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+.error
+{
+	color: Red;
+	display: block;
+        text-align: center;
+	margin-left:0px;
+}
+.submit-button
+{
+	width: 74px;
+	height: 20px;
+	display: block;
+	margin-left: 312px;
+}
+a.submit-button
+{
+	text-decoration: none;
+	color: #282834;
+	font-size: 18px;
+}
+.locked
+{
+/*	background-image: url(../images/locked.jpg);
+	background-position: right;
+	background-repeat: no-repeat;*/
+}
+.unlocked
+{
+/*	background-image: url(../images/unlocked.jpg);
+	background-position: right;
+	background-repeat: no-repeat;*/
+}
+

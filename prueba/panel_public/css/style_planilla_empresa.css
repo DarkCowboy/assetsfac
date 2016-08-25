@@ -1,0 +1,71 @@
+input[placeholder], [placeholder], *[placeholder]
+{
+    color:lightslategrey !important;
+}
+.botonera{
+    margin: 0 auto;
+    width: 181px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.botonera a{
+    color: white;
+}
+.editar{
+    background: url("img/backgrounds/menu-item.jpg") repeat-x scroll left top transparent;
+    height: 31px;
+    margin: 0;
+    padding: 7px 0 0;
+    text-align: center;
+    width: 181px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.descargar_f{
+    background: url("img/backgrounds/menu-item.jpg") repeat-x scroll left top transparent;
+    height: 31px;
+    margin: 0;
+    padding: 7px 0 0;
+    text-align: center;
+    width: 181px;
+    cursor: pointer;
+    float: left;
+    border-radius: 10px;
+}
+
+.cancelar_edicion{
+    background: url("img/backgrounds/menu-item.jpg") repeat-x scroll left top transparent;
+    display: none;
+    height: 31px;
+    margin: 0;
+    padding: 7px 0 0;
+    text-align: center;
+    width: 181px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.editar:hover, .descargar_f:hover, .cancelar_edicion:hover{
+    background: url("img/backgrounds/menu-item-active.jpg") repeat-x scroll left top transparent;
+}
+
+.loading_image{
+    border: 0 none;
+    height: auto;
+    margin-left: 8px;
+    margin-top: -23px;
+    max-width: 100%;
+    vertical-align: middle;
+    width: 17px;
+}
+.row-form span {
+    color: #333 !important;
+    font-size: 12px !important;
+}

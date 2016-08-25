@@ -1,0 +1,106 @@
+ <!--Si la Operacion se encuentra 
+                                                            0 Esperando ser Procesada
+                                                            deberia de mostrar:
+                                                            Procesar Operacion 
+                                                            rechazar Operacion  
+                                                            Eliminar Operacion -->
+
+                                                        <? if ($row['status'] == 0) { ?>
+                                                            <div class="procesar" title="Procesar operacion"  onclick="$.fancybox({type: 'iframe', href: './clientes/procesar_cupo/<?= $row['id_solicitud']; ?>'});"></div>
+                                                            <div class="eliminar" title="Eliminar operacion"  id="<?= $row['id_solicitud']; ?>"></div>
+                                                            <div class="rechazar delete" href="clientes/rechazar/<?= $row['id_solicitud']; ?>/<?= $row['id_cliente']; ?>" title="Rechazar Solicitud"></div>
+                                                        <? } ?>
+
+                                                        <!--Si la Operacion se encuentra 
+                                                            1 Procesada en espera
+                                                            deberia de mostrar:
+                                                            Aceptar Solicitud 
+                                                            rechazar Operacion  
+                                                            Eliminar Operacion
+                                                            Editar Operacion
+                                                            Editar facturas
+                                                        -->
+
+                                                        <? if ($row['status'] == 1) { ?>
+                                                            <div class="aceptar" title="Aceptar Solicitud" onclick="$.fancybox({type: 'iframe', 'height': 390, 'autoSize': false, href: './clientes/aceptar_solicitud_v/<?= $row['id_solicitud']; ?>'});"></div>
+                                                            <div class="rechazar delete" href="clientes/rechazar/<?= $row['id_solicitud']; ?>/<?= $row['id_cliente']; ?>" title="Rechazar Solicitud"></div>
+                                                            <div class="eliminar" title="Eliminar operacion"  id="<?= $row['id_solicitud']; ?>"></div>
+                                                            <div class="editar" title="Editar operacion"  onclick="$.fancybox({type: 'iframe', href: './clientes/procesar_cupo/<?= $row['id_solicitud']; ?>'});"></div>
+                                                            <div class="editar_f" title="Editar Facturas"  onclick="$.fancybox({type: 'iframe', href: './clientes/editar_facturas/<?= $row['id_solicitud']; ?>'});"></div>
+                                                        <? } ?>
+
+                                                        <!--Si la Operacion se encuentra 
+                                                            2 Vigente
+                                                            deberia de mostrar:
+                                                            Enviar Pagare 
+                                                            Pausar Operacion
+                                                            Finalizar Operacion
+                                                        -->
+
+                                                        <? if ($row['status'] == 2) { ?>
+                                                            <!--                                                            <div title="Enviar Pagare" style="display: inline-block; float: left; width: 34px; height: 34px; ">
+                                                                                                                                    <a href="./clientes/email_convenio/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>"><img src="images/enviar.gif" /></a>
+                                                                                                                                </div>-->
+                                                            <a href="./clientes/email_convenio/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>">
+                                                                <div class="enviar Enviar_Operaciones" style="margin-bottom: 10px;" title="Enviar Pagare"></div>
+                                                            </a>
+                                                            <? if ($row['pause']) { ?>
+                                                                <a href="./pausa_operacion/reanudar/<?= $row['id_solicitud']; ?>"><div class="reanudar reanudar_Operaciones" style="margin-bottom: 10px;" title="Reanudar Operacion">Reanudar</div></a><br/>
+                                                            <? } else { ?>
+                                                                <a href="./pausa_operacion/<?= $row['id_solicitud']; ?>"><div class="pausar pausar_Operaciones" style="margin-bottom: 10px;" title="Pausar Operacion">Pause</div></a><br/>
+                                                            <? } ?>
+        <!--<div class="fin cerrar_operacion" style="margin-bottom: 10px;;" href="clientes/cierra_operacion/<?= $row['id_solicitud']; ?>/<?= $row['id_cliente']; ?>" title="Finalizar Operacion"></div>-->
+                                                            <div onclick="$.fancybox({type: 'iframe', 'height': 390, 'autoSize': false, href: './comprobar_pago/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>'});" class="fin " style="margin-bottom: 10px;" title="Finalizar Operacion"></div><br/>
+
+                                                        <? } ?>  
+
+                                                        <!--Si la Operacion se encuentra 
+                                                            3 Rechazada
+                                                            deberia de mostrar:
+                                                            Eliminar
+                                                        -->
+
+                                                        <? if ($row['status'] == 3) { ?>
+                                                            <div class="eliminar" title="Eliminar operacion"  id="<?= $row['id_solicitud']; ?>"></div>
+                                                        <? } ?>    
+
+                                                        <!--Si la Operacion se encuentra 
+                                                            6 Vencida
+                                                            deberia de mostrar:
+                                                            Pause de Operacion
+                                                            Finalizar Operacion
+                                                            Enviar Convenio
+                                                        -->
+
+                                                        <? if ($row['status'] == 6) { ?>
+                                                            <? if ($row['pause']) { ?>
+                                                                <a href="./pausa_operacion/reanudar/<?= $row['id_solicitud']; ?>"><div class="reanudar reanudar_Operaciones" style="margin-bottom: 10px;" title="Reanudar Operacion">Reanudar</div></a><br/>
+                                                            <? } else { ?>
+                                                                <a href="./pausa_operacion/<?= $row['id_solicitud']; ?>"><div class="pausar pausar_Operaciones" style="margin-bottom: 10px;" title="Pausar Operacion">Pause</div></a><br/>
+                                                            <? } ?>
+            <!--<div class="fin cerrar_operacion" style="margin-bottom: 10px;;" href="clientes/cierra_operacion/<?= $row['id_solicitud']; ?>/<?= $row['id_cliente']; ?>" title="Finalizar Operacion"></div>-->
+                                                            <div onclick="$.fancybox({type: 'iframe', 'height': 390, 'autoSize': false, href: './comprobar_pago/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>'});" class="fin " style="margin-bottom: 10px;" title="Finalizar Operacion"></div><br/>
+
+                                                            <br/>
+                                                            <!--<a href="./clientes/email_convenio/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>">Enviar Convenio</a>-->
+                                                            <a href="./clientes/email_convenio/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>">
+                                                                <div class="enviar Enviar_Operaciones" style="margin-bottom: 10px;" title="Enviar Pagare"></div>
+                                                            </a>
+                                                        <? } ?>    
+
+                                                        <!--Si la Operacion se encuentra 
+                                                            7 Aprobada en espera de activacion
+                                                            deberia de mostrar:
+                                                            Activar Solicitud
+                                                            Enviar Pagare
+                                                        -->
+
+                                                        <? if ($row['status'] == 7) { ?>
+                                                            <div class="aceptar activar_operacion" style="float: left; margin: 0 42px; cursor: pointer;" title="Activar Solicitud" fecha_activacion ="<?= date('Y-m-d'); ?>" href= "clientes/activar_solicitud/<?= $row['id_solicitud']; ?>/<?= date('Y-m-d'); ?>" ></div>
+                                                            <!--                                                            <div title="Enviar Pagare" style="display: inline-block; float: left; width: 34px; height: 34px; ">
+                                                                                                                            <a href="./clientes/email_convenio/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>"><img src="images/enviar.gif" /></a>
+                                                                                                                        </div>-->
+                                                            <a href="./clientes/email_convenio/<?= $row['id_solicitud'] . '/' . $row['id_cliente']; ?>">
+                                                                <div class="enviar Enviar_Operaciones" style="margin-bottom: 10px;" title="Enviar Pagare"></div>
+                                                            </a>
+                                                        <? } ?>

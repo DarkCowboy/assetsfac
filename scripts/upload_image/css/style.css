@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example 8.0
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+*/
+
+
+.ng-cloak {
+    display: none;
+}
+
+.preview canvas{
+    width: 130px;
+    height: 130px;
+}
+.preview{
+    width: 130px;
+    height: 130px;
+}

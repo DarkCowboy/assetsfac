@@ -1,0 +1,68 @@
+
+.cuerpo{
+    width: 200px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.contenido{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tabla{
+    width: 100%;
+}
+
+.titulo_tabla{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: #c9c9c9;
+}
+
+.sub_titulo_tabla{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: #dddddd;
+}
+
+.contenido_td{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.contenido_numero{
+    font-size: 14px;
+    color: black;
+    text-align: right;
+}
+
+.resultados{
+font-size: 14px;
+color: black;
+font-weight: bold;
+text-align: center;
+background: #dddddd;
+}
+
+.contenido_justificado{
+font-size: 14px;
+color: black;
+text-align: justify;
+}
+
+.contenido_izquierda{
+font-size: 14px;
+color: black;
+text-align: left;
+}
+
+

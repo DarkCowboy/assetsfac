@@ -1,0 +1,16 @@
+body{
+    background: White;
+}
+
+main{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}

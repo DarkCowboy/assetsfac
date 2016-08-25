@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^panel\.assetsfactoring\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.panel\.assetsfactoring\.com$
+RewriteRule ^/?$ "http\:\/\/panel\.assetsfactoring\.com\/panel_global" [R=301,L]
+
+ 

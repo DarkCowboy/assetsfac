@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+}
+.wrap{
+    width: 100%;
+    min-height: 100px;
+}
+
+.contenido{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.titulo{
+    background: url("../images/container/header/header-bg.png") repeat-x scroll left top transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 23px;
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.boton{
+   background: url("../images/container/header/header-bg.png") repeat-x scroll left top transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 37px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 0;
+}
+
+.bloque_izquierdo{
+    width: 49%;
+    float: left;
+    min-height: 400px;
+}
+
+.bloque_derecho{
+    text-align: center;
+    width: 49%;
+    float: right;
+    min-height: 400px;
+}
+
+table td{
+    text-align: center;
+}
+
+td > input{
+    text-align: right;
+    font-size: 11px;
+}
+
+.contenido_marcos{
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 0 23px;
+}
+
+
+.table{
+    font-size: 11px;
+    width: 100%;
+}

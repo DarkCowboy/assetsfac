@@ -1,0 +1,52 @@
+.cuerpo{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 10pt;
+    line-height: 20px;
+    
+}
+
+p{margin:0;padding:0}
+
+.title{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.tabla{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.titulo_tabla{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: #c9c9c9;
+}
+
+.sub_titulo_tabla{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: #dddddd;
+}
+
+.contenido_td{
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contenido_numero{
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: right;
+}

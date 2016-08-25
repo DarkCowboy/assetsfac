@@ -1,0 +1,17 @@
+.titulo{
+    text-align: center;
+    font-family: Arial;
+    font-size: 12pt;
+}
+.cuerpo{
+    text-align: justify;
+    font-family: Arial;
+    font-size: 12pt;
+    line-height: 29px;
+}
+
+.parrafo_tabulado{
+    margin-left: 2em;
+}
+
+p{margin:0;padding:0}

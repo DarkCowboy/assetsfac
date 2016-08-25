@@ -1,0 +1,660 @@
+@charset "utf-8";
+/*@import url(http://fonts.googleapis.com/css?family=Dosis:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);*/
+
+
+@media \0screen {
+    * {
+        behavior: url('ie-css3.htc'); 
+    }
+}
+
+body {
+    font-family: Dosis, Verdana;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color: #6a6a6a;
+    background: #f1f1f1/*url('../images/general/back_ground.png') repeat-x*/;
+}
+
+/* =========================================== reset */
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+/* nuevas etiquetas de HTML 5 declarar con display block. */
+header, section, footer, aside, nav, article {
+    display: block;
+}
+
+input, textarea {
+    outline: none;
+}
+
+/* =========================================== /reset */
+
+
+/* =========================================== general */
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 10px auto;
+    z-index: 2;
+    position: relative;
+    padding: 0px;
+    clear: both;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    z-index: 2;
+    position: relative;
+    padding: 0px;
+    clear: both;
+    margin-top: 30px;
+
+}
+
+
+/*===================================== fin general */
+
+
+/* =========================================== header */
+
+
+
+.cls_header .cls_logo_top {
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 216px;
+    height: 84px;
+    margin-left: 6%;
+}
+.cls_header .cls_logo_top a {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    /*background: url("../images/general/logo.png") no-repeat ;*/
+    background: url("../images/general/logo.png") no-repeat ;
+    background-size: 210px;
+}
+.cls_header .cls_logo_top a h1 {
+    text-indent: -9999px;
+    border: none;
+}
+.cls_header .cls_qmenu {
+    /*background: url("../images/general/bg_green.png") repeat scroll 0 0 transparent;*/
+    /*background:#15624E;*/ 
+    background:none repeat scroll 0 0 #006633;
+    float: right;
+    min-height: 30px;
+    margin-right: 55px;
+    margin-top: 3px;
+    max-width: 848px;
+    padding: 8px 0 0;
+    position: relative;
+    width: 100%;
+    border-radius: 7px;
+}
+.cls_header .cls_qmenu ul {
+    position: relative;
+    float: left;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+.cls_header .cls_qmenu li {
+    border-left: 1px solid white;
+    color: #FFFFFF;
+    display: inline-table;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 34px 0 0;
+    position: relative;
+}
+
+.cls_header .cls_qmenu li:hover {
+    text-shadow: 0.2em 0.2em 0.06em #333;
+
+}
+.indicador{
+    left: 41px;
+    position: absolute;
+    top: 25px;
+}
+.cls_header .cls_qmenu li:hover .indicador{
+    display: block !important;
+
+}
+
+.cls_header .cls_qmenu li:first-child {
+    border: none;
+}
+
+.cls_header .cls_qmenu li a span {
+    float: left;
+    height: 22px;
+    margin: 0 29px 0 0;
+    padding: 0;
+    position: relative;
+    width: 22px;
+}
+
+
+.addres_top {
+    /*background: none repeat scroll 0 0 #15624E;*/
+    background:none repeat scroll 0 0 #006633;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    float: right;
+    font-size: 10px;
+    line-height: 11px;
+    margin-right: 6%;
+    margin-top: 8px;
+    padding: 7px;
+    text-align: justify;
+    width: 321px;
+}
+.addres_top p{
+    margin: 0;
+    padding: 2;
+}
+
+.msf_online{
+    position: relative;
+    float: left;
+    display: none;
+}
+
+
+
+/* =========================== style banner */
+
+.baner_sesion{
+    max-width: 852px;
+    /*max-width: 663px;*/
+    width: 100%;
+    margin: -27px auto;
+}
+
+.shadown_banner{
+    background: url("../images/general/shadown_banner.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    margin-top: -19px;
+    position: relative;
+    width: 848px;
+    z-index: -100000;
+}
+
+.banner_big{
+    clear: both;
+    display: inline-block;
+    margin: 0 5px 0 1px;
+    max-width: 663px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.inicio_sesion {
+    /*background: url("../images/general/bg_sesion.png") repeat scroll 0 0 #15624E;*/
+    background: none repeat scroll 0 0 #006633;
+    display: inline-block;
+    float: left;
+    height: 186px;
+    margin-bottom: 0;
+    margin-right: -1px;
+    margin-top: 25px;
+    padding-top: 22px;
+    position: relative;
+    width: 179px;
+}
+
+.anythingSlider{
+    width: 100% !important;
+    height: 245px !important;
+}
+
+.anythingSlider .back {
+    display: none !important;
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+}
+.anythingSlider .back a {
+    width: 32px;
+    height: 37px;
+    background: url('../images/general/arrow_left.png') no-repeat;
+    display: block;
+    float: left;
+    margin-left: -33px;
+    margin-top: -21px;
+}
+
+.anythingSlider .forward {
+    width: 32px;
+    height: 37px;
+    background: url('../images/general/arrow_rigth.png') no-repeat;
+    display: none !important;
+    float: right;
+    margin-right: -33px;
+    margin-top: -143px;
+    cursor: pointer;
+}
+
+.anythingControls {
+    display: none !important;
+}
+
+.imagen_banner{
+    float: left;
+    height: 205px;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 462px;
+}
+
+.texto_banner{
+    background: none repeat scroll 0 0 #65B489;
+    color: white;
+    float: left;
+    font-size: 16px;
+    height: 188px;
+    margin-left: -1px;
+    margin-top: 15px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+}
+
+#slider2{
+    height: 100%;
+    width: 100%;
+}
+#slider2 > li{
+    height: 100% !important;
+    width: 100%;
+}
+
+/*============================== fin style banner*/
+
+
+/*============================botones inferiores*/
+
+.container_btn_inf{
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    /*min-height: 142px;*/
+}
+
+.lista_btns_inf{
+    display: table;
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-left: 5px
+}
+.lista_btns_inf li{
+    color: #FFFFFF;
+    display: inline-table;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    position: relative;
+}
+
+.lista_btns_inf > li > a > img{
+    /*border-radius: 15px;*/
+    cursor: pointer;
+}
+
+.lista_btns_inf > li > a:hover{
+    opacity: 0.6;
+
+}
+
+.reflection-over {
+    /*back  ground-image: url("../images/general/sombra.png");*/
+    height: 68px;
+    left: 0;
+    position: absolute;
+    top: 76px;
+    width: 100%;
+}
+
+.reflection img {
+    display: block;
+    opacity: 0.2;
+    -moz-transform: scaleY(-1); /* Firefox */
+    -webkit-transform: scaleY(-1); /* Chrome/Safari */
+    -o-transform: scaleY(-1); /* Opera */
+    -ms-transform: scaleY(-1); /* IE9 */
+    transform: scaleY(-1); /* w3c */
+    filter: flipv alpha(opacity='100'); /* IE8 */
+    border-radius: 15px;
+}
+/*============================fin botones inferiores*/
+
+/*================================== Contenido de Texto*/
+
+.contenido_texto{
+    max-width: 857px;
+    width: 97%;
+    min-height: 100px;
+    border: solid 1px #c9c9c9;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 4px 8px 3px 9px;
+    font-size: 11px;
+}
+
+.contenido_centro{
+    max-width: 857px;
+    width: 97%;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+.contenido_50{
+    border: 1px solid #C9C9C9;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    margin: 5px 3px 9px;
+    max-width: 857px;
+    min-height: 166px;
+    padding: 4px 8px 3px 9px;
+    width: 47%;
+    font-size: 11px;
+}
+
+.texto_justificado{
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 11px;
+}
+
+.texto_centrado{
+    text-align: center;
+    text-indent: 2em;
+    font-size: 11px;
+}
+
+.texto_footer{
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+/*================================== Fin Contenido de Texto*/
+
+/*=============style botones div */
+.boton_div{
+    cursor: pointer;
+}
+/*=============style botones div */
+
+
+/*==================== fancybox */
+.fancybox-skin {
+    background: url('../images/general/bg_sesion.png') !important;
+}
+.fancy_titulo{
+    text-align: center;
+    font-weight: bold;
+
+}
+#cuerpo_fancy{
+    font-size: 10px;
+    min-height: 30px; 
+}
+.cuerpo_calc_fancy{
+    margin: 10px auto;
+    width: 288px;
+    background: white;
+    padding: 10px;
+    border-radius: 33px;
+}
+/*====================Fin fancybox */
+
+.calculator{
+    margin: 0 auto; 
+    width: 33%;  
+    float: left; 
+    margin: 0 5%; 
+    width: 33%;
+}
+
+@media screen and (min-width: 0) and (max-width: 1000px) {
+    .banner_big{
+        max-width: 475px;
+    }
+
+    .texto_banner {
+        font-size: 17px;
+        height: 100%;
+        margin-left: 267px;
+        padding-top: 8%;
+        position: relative;
+        width: 39%;
+    }
+
+}
+
+@media screen and (min-width: 0) and (max-width: 890px) {
+    .contenido_50{
+        max-width: 95%;
+        width: 92%;
+    }
+
+    #map_canvas{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width: 0) and (max-width: 850px) {
+    .banner_big{
+        max-width: 350px;
+    }
+
+    .texto_banner {
+        font-size: 12px;
+        height: 100%;
+        margin-left: 221px;
+        padding-top: 13%;
+        position: relative;
+        width: 34%;
+    }
+    .container{
+        max-width: 730px;
+    }
+
+}
+
+@media screen and (min-width: 0) and (max-width: 700px) {
+    .banner_big{
+        max-width: 76%;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+        position: relative;
+        height: 207px;
+    }
+
+    .texto_banner {
+        font-size: 15px;
+        height: 100%;
+        margin-left: 153px;
+        padding-top: 11%;
+        position: relative;
+        width: 65%;
+    }
+
+    .cls_header .cls_qmenu {
+        background: #15624E;
+        float: left;
+        position: relative;
+        max-width: 100%;
+        border-radius: 7px;
+
+    }
+    .anythingSlider .forward {
+        width: 32px;
+        height: 37px;
+        background: url('../images/general/arrow_rigth.png') no-repeat;
+        display: block;
+        float: right;
+        margin-right: -33px;
+        margin-top: -105px;
+        cursor: pointer;
+    }
+
+    .container_btn_inf {
+        display: block;
+        clear: both;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 8px;
+        min-height: 142px;
+    }
+
+    .cls_header .cls_qmenu li {
+        border: none;
+    }
+
+    .imagen_banner {
+        float: left;
+        height: 194px;
+        margin-left: 23px;
+        margin-top: 36px;
+        width: 141px;
+    }
+
+    .imagen_banner > img{
+        width: 135px;
+    }
+
+    .container{
+        max-width: 730px;
+    }
+
+    .movil{
+        display: block !important;
+    }
+
+
+    .inicio_sesion_movil {
+        background: none repeat scroll 0 0 #15624E;
+        display: inline-block;
+        float: right;
+        height: 163px;
+        margin-bottom: 7px;
+        margin-right: 0;
+        margin-top: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .inicio_sesion{
+        display: none;
+    }
+    .container_btn_inf{
+        display: none;
+    }
+
+    .publicidad_documentos > a > img{
+        width: 98%;
+    }
+
+    .contenido_texto{
+        width: 90%;
+    }
+
+    hr{
+        width: 90%;
+    }
+
+    .lista_btns_inf {
+
+        width: 95%;
+    }
+
+    .lista_btns_inf li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 450px) {
+    .imagen_banner {
+        float: left;
+        height: 194px;
+        margin-left: -8px;
+        margin-top: 36px;
+        width: 135px;
+    }
+
+    .texto_banner {
+        font-size: 15px;
+        height: 100%;
+        margin-left: 126px;
+        padding-top: 11%;
+        position: relative;
+        width: 65%;
+    }
+
+}
+
+@media screen and (min-width: 0) and (max-width: 430px) {
+    .imagen_banner {
+        float: left;
+        height: 209px;
+        margin: 18px 0px 1px 21%;
+        width: 100%;
+    }
+
+    .texto_banner {
+        font-size: 11px;
+        margin: 0 auto;
+        width: 100%;
+        float: left;
+        margin-top: -139px;
+        text-align: center;
+    }
+
+
+}

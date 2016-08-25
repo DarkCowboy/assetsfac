@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    font-size: 9px;
+}
+
+.logo{
+    height: 55px;
+    width: 250px;
+}
+
+.cuerpo{
+    width: 100%;
+}
+
+.contenido{
+
+}
+
+.tabla{
+    width: 100%;
+}
+
+.titulo_tabla{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: #c9c9c9;
+    height: 25px;
+}
+
+.sub_titulo_tabla{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: #dddddd;
+    height: 25px;
+}
+
+.contenido_td{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contenido_resu{
+    color: black;
+    text-align: center;
+}
+
+.contenido_numero{
+    color: black;
+    text-align: right;
+}
+
+.resultados{
+color: black;
+font-weight: bold;
+text-align: center;
+background: #dddddd;
+}
+
+.contenido_justificado{
+color: black;
+text-align: justify;
+}
+
+.contenido_izquierda{
+color: black;
+text-align: left;
+text-transform: uppercase;
+}
+
+.reporte_ries{
+    border:1px solid #c9c9c9; 
+    height: 80px; 
+    text-align: justify; 
+    vertical-align: top; 
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.analisis_coment{
+    border:1px solid #c9c9c9; 
+    height: 160px;  
+    text-align: justify; 
+    vertical-align: top; 
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+
