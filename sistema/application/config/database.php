@@ -67,7 +67,8 @@ $db['default']['stricton'] = FALSE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = '9wuMuugEIr';
+// $db['default']['password'] = '9wuMuugEIr'; assetsfactoring pass
+$db['default']['password'] = 'm1YrFIhh6N';
 $db['default']['database'] = 'factoring';
 
 
