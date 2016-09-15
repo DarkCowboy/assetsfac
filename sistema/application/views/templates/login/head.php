@@ -8,14 +8,14 @@
         <meta charset="utf-8">
         <base href="<?= base_url(); ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <META name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOODP,NOSNIPPET"> 
+        <META name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOODP,NOSNIPPET">
         <title>Panel Administrativo Assets Factoring</title>
         <meta name="description" content="">
         <META NAME="Author" CONTENT="Rhonald A. Brito Q." />
         <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
         <meta http-equiv="cache-control" content="no-cache">
-        <link rel="icon" type="image/png" href="images/general/favicon.png" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/general/favicon-small.png" />
+        <link rel="icon" type="image/png" href="" />
+        <link rel="shortcut icon" type="image/x-icon" href="" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="css/login/style.css"> <!-- Generic style (Boilerplate) -->
         <link rel="stylesheet" href="css/login/960.fluid.css"> <!-- 960.gs Grid System -->

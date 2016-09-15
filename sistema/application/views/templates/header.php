@@ -13,9 +13,9 @@
         <META NAME="Author" CONTENT="Rhonald A. Brito Q." />
         <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
         <meta http-equiv="cache-control" content="no-cache">
-        <link rel="icon" type="image/png" href="images/general/favicon.png" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/general/favicon-small.png" />
-        <META name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOODP,NOSNIPPET"> 
+        <link rel="icon" type="image/png" href="" />
+        <link rel="shortcut icon" type="image/x-icon" href="g" />
+        <META name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOODP,NOSNIPPET">
 
         <!-- Main CSS -->
         <link type="text/css" href="css/style.css" rel="stylesheet" media="all" />
@@ -41,8 +41,8 @@
 
         <!--calendario-->
         <script src="scripts/calendario/dhtmlxcalendar.js"></script>
-        <link rel="stylesheet" href="scripts/calendario/dhtmlxcalendar.css" type="text/css"> 
-        <link rel="stylesheet" href="scripts/calendario/dhtmlxcalendar_dhx_terrace.css" type="text/css"> 
+        <link rel="stylesheet" href="scripts/calendario/dhtmlxcalendar.css" type="text/css">
+        <link rel="stylesheet" href="scripts/calendario/dhtmlxcalendar_dhx_terrace.css" type="text/css">
 
         <!-- Add fancyBox main JS and CSS files -->
         <link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox.css?v=2.1.2" media="screen" />
@@ -50,13 +50,13 @@
 
         <!-- lib.validator -->
         <link type="text/css" href="./scripts/lib.validator/css.validator.css" rel="stylesheet" media="all" />
-        <script type="text/javascript" src="./scripts/lib.validator/lib.validator.js"></script>    
+        <script type="text/javascript" src="./scripts/lib.validator/lib.validator.js"></script>
 
         <!-- scripts propios -->
         <!--<script type="text/javascript" src="./scripts/scripts.js"></script>-->
 
         <!--efecto circular-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <link rel="stylesheet" type="text/css" href="css/circle_effect/common.css">
         <link rel="stylesheet" type="text/css" href="css/circle_effect/style2.css">
         <link rel="stylesheet" type="text/css" href="css/typography.css">
@@ -69,7 +69,7 @@
     </head>
     <div class="top_bar">
         <div class="identidad">
-            <img src="images/logo.png" />
+            <img src="" />
             <p style="color: white; font-size: 22px; padding-left: 190px; padding-top: 41px;">Sistema Administrativo</p>
         </div>
     </div>

@@ -86,7 +86,7 @@
         <!-- Begin of LoginBox-section -->
         <section id="login-box">
             <div style="margin: 0px auto; width: 306px;">
-                <img width="300"  src="images/general/logo_portada.png"/>
+                <img width="300"  src=""/>
             </div>
 
             <div class="block-border">
